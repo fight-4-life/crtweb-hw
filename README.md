@@ -1,2 +1,3 @@
 # crtweb-hw
-repository for for homework (creative company courses)
+Hi! My name is Vladimir.
+This is repository for homework (creative company courses).

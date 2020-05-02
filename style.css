@@ -16,11 +16,7 @@ p {
 }
 
 .tooltip:hover {
-<<<<<<< HEAD
-    color: #77d4ff;
-=======
     color: #77fff4;
->>>>>>> c7ff5a6... Change tooltip word hover color
 }
 
 .tooltip .tooltip-content {

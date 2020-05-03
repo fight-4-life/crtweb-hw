@@ -2,7 +2,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 15%;
 
     font-size: 40px;
 }
@@ -40,7 +40,7 @@ p {
     text-align: center;
     color: #ffffff;
     padding: 10px 15px;
-    width: 180px;
+    width: 220px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.2),
      rgba(255, 255, 255, 0.2)),
     linear-gradient(114.91deg, #446eaa 0%, #4ec4ff 100%);

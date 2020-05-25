@@ -1,0 +1,4 @@
+.blocks {
+    grid-area: blocks;
+    border: 1px solid blue;
+}

@@ -1,0 +1,4 @@
+.menu {
+    grid-area: menu;
+    border: 2px solid green;
+}

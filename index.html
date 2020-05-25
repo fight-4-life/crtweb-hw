@@ -3,44 +3,41 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Playlist</title>
+	<link rel="stylesheet" href="./commonBlocks/body/body.css">
+	<link rel="stylesheet" href="./commonBlocks/footer/footer.css">
+	<link rel="stylesheet" href="./commonBlocks/footer/footer__text/footer__text.css">
+	<link rel="stylesheet" href="./commonBlocks/header/header.css">
+	<link rel="stylesheet" href="./commonBlocks/header/header__text/header__text.css">
+	<link rel="stylesheet" href="./commonBlocks/menu/menu.css">
+	<link rel="stylesheet" href="./commonBlocks/menu/menu__element/menu_element.css">
+	<link rel="stylesheet" href="./commonBlocks/menu/menu__element/_element-green/menu__element-green.css">
+	<link rel="stylesheet" href="./commonBlocks/menu/menu__element/_element-red/menu__element-red.css">
+	<link rel="stylesheet" href="./commonBlocks/blocks/blocks.css">
+	<link rel="stylesheet" href="./commonBlocks/blocks/blocks-flex/blocks__flex.css">
+	<link rel="stylesheet" href="./commonBlocks/blocks/blocks__element/blocks__element.css">
+	<title> BEM Homework </title>
 </head>
 
-<body style="text-align: center; border: 1px dashed gray;">
-	<header style="border: 1px solid green;">
-		<p>Header</p>
+<body>
+	<header class="header">
+		<p class="header__text">Header</p>
 	</header>
-	<main style="border: 1px dashed red;">
-		<div>
-			<p><strong> Rammstein - Ohne Dich</strong></p>
-			<audio controls src="https://enotko.com/biblios/pesni/Rammstein%20-%20Ohne%20Dich.mp3"> </audio>
-			<iframe width="400" height="200" src="https://www.youtube.com/embed/LIPc1cfS-oQ" frameborder="0"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-		</div>
-		<div>
-			<p><strong> Imagine Dragons - Radioactive</strong></p>
-			<audio controls src="https://enotko.com/biblios/pesni/Imagine%20Dragons%20-%20Radioactive.mp3"> </audio>
-			<iframe width="400" height="200" src="https://www.youtube.com/embed/2r0bx7R8UIg" frameborder="0"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-		</div>
-	</main>
-	<footer style="border: 1px dashed gold;">
-		<p hidden="true">FOOTER</p>
-		<form method="GET">
-			<!-- Если атрибут action не указывать, то передача происходит на адрес текущей страницы -->
-			<div>
-				<input type="text" name="lastname" placeholder="Фамилия" required>
-			</div>
-			<div>
-				<input type="text" name="name" placeholder="Имя" required>
-			</div>
-			<div>
-				<input type="text" name="patronymic" placeholder="Отчество" required>
-			</div>
-			<button>Send data</button>
-		</form>
+	<nav class="menu">
+		<p>Menu</p>
+		<div class="menu__element menu__element-green">Menu element</div>
+		<div class="menu__element menu__element-green">Menu element</div>
+		<div class="menu__element menu__element-red">Menu element</div>
+	</nav>
+	<div class="blocks blocks__flex" >
+		<div class="blocks__element">block</div>
+		<div class="blocks__element">block</div>
+		<div class="blocks__element">block</div>
+		<div class="blocks__element">block</div>
+		<div class="blocks__element">block</div>
+		<div class="blocks__element">block</div>
+	</div>
+	<footer class="footer">
+		<p class="footer__text">Footer</p>
 	</footer>
 </body>
 

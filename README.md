@@ -2,9 +2,7 @@
 Hi! My name is Vladimir.  
 This is repository for homework (creative company courses).  
 Todo list:  
-Create a page with  
-header,  
-main includes list of audiotracks (title and description for it),  
-ability to play audio.  
-Footer will consist of form (send your full name on same page uses method POST).  
-To each audio attach video (iframe).  
+- header and footer: maximal width, font size h2;  
+- menu: minimal width 200px/15% of sreen size;  
+- menu elements: 2 green colot, 1 red color, all width of menu;  
+- blocks width/height fixed;  

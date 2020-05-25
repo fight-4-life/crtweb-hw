@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "menu header"
+    "menu blocks"
+    "footer footer";
+    grid-template-columns: 15% 1fr ;
+    grid-template-rows: 15% 1fr 15%;
+    grid-gap: 15px;
+    height: 100vh;
+    text-align: center;
+}
